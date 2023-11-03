@@ -2,14 +2,12 @@
 if(!localStorage.getItem('token'))
 {
     alert('Please sign in first');
-    window.location.href='http://127.0.0.1:5501/login.html';
+    window.location.href='https://bikram-foodempire.netlify.app/login.html';
 }
 
 
 const t_data=document.querySelectorAll('.t_data');
 const select_table=document.querySelector('#tables');
-
-
 
 const resData={
     name:"",

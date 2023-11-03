@@ -33,7 +33,7 @@ const handleLogin=async (e)=>
             localStorage.setItem('token',resp.token);
             alert("Signed in successfully");
             console.log(resp);
-            window.location.href="http://127.0.0.1:5501/index.html";
+            window.location.href="https://bikram-foodempire.netlify.app/";
         }
         
     }

@@ -24,7 +24,7 @@ const signout=()=>
     console.log("signed out");
     changeNavbar();
     alert('Signout successfully');
-    window.location.href="http://127.0.0.1:5501/index.html";
+    window.location.href="https://bikram-foodempire.netlify.app/";
 }
 
 
