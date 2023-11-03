@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="top-area">
+        <nav>
+            <div class="navigation">
+                <div class="img_container">
+                    <a href=""><span>Food Empire</span></a>
+                </div>
+                <div id="navbar-menu">
+                    <ul class="navbar">
+                        <li class="nav-item "><a href="index.html">Home</a></li>
+                        <li class="nav-item "><a href="./reservation.html">My Reservations</a></li>
+                        <li class="nav-item" id="signin" ><a href="./login.html">Login/Register</a></li>
+                        <li class="nav-item" id="signin" ><a href="./book.html">Book Table</a></li>
+                        <li class="nav-item "><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="register_wrapper">
+        <div class="register_box box">
+            <form action="">
+                <h2>CREATE ACCOUNT</h2>
+                <div class="inputBox">
+                    <input type="text" required="required"  class="regdInputs" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="email" required="required" class="regdInputs" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required"  class="regdInputs"placeholder="New Password">
+                </div>
+                <div class="inputBox">
+                    <input type="password" required="required"  class="regdInputs"placeholder="Confirm Password">
+                </div>
+                
+                <input type="submit" class="submitbtn2" id="submitbtn2" value="Register">
+                <div class="signup">
+                    Already Have An Account? <a href="./login.html">Sign In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_content">
+            <div class="img_container">
+                <a href=""><span>Food Empire</span></a>
+            </div>
+            <div class="hours">
+                <h4>Opening Hours</h4>
+                <div class="duration">
+                    <div class="days">
+                        Monday - Friday
+                        <p>10:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="days">
+                        Saturday
+                        <p>10:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="days">
+                        Sunday
+                        <p>CLOSED</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <a href="#" class="fa fa-facebook fa-lg"></a>
+                <a href="#" class="fa fa-twitter fa-lg"></a>
+                <a href="#" class="fa fa-instagram fa-lg"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="top-area">
+        <nav>
+            <div class="navigation">
+                <div class="img_container">
+                    <a href=""><span>Food Empire</span></a>
+                </div>
+                <div id="navbar-menu">
+                    <ul class="navbar">
+                        <li class="nav-item "><a href="index.html">Home</a></li>
+                        <li class="nav-item "><a href="./reservation.html">My Reservations</a></li>
+                        <li class="nav-item" id="signin" ><a href="./login.html">Login/Register</a></li>
+                        <li class="nav-item" id="signin" ><a href="./book.html">Book Table</a></li>
+                        <li class="nav-item "><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="book_wrapper">
+        <div class="book_box box">
+            <form method="post">
+                <h2>Reserve Table</h2>
+                <div class="form_content">
+                    <div class="iBox">
+                        Name<input type="text" name="name"  class="inputs" required>
+                    </div>
+                    <div class="iBox">
+                        Email<input type="email" name="email" class="inputs" required>
+                    </div>
+                    <div class="iBox">
+                        Reservation Date<input type="date" name="date" class="t_data inputs"  required >
+                    </div>
+                    <div class="iBox">
+                        Reservation Time <select name="time_slot" id="" class="inputs t_data">
+                            <option value="" hidden>Select time slot</option>
+                            <option value="10:00 am - 11:00 am">10:00 am - 11:00 am</option>
+                            <option value="11:00 am - 01:00 pm">11:00 am - 01:00 pm</option>
+                            <option value="01:00 pm - 03:00 pm">01:00 pm - 03:00 pm</option>
+                            <option value="03:00 pm - 06:00 pm">03:00 pm - 06:00 pm</option>
+                            <option value="06:00 pm - 09:00 pm">06:00 pm - 09:00 pm</option>
+                        </select>
+                    </div>
+                    <div class="iBox">
+                        No. Of Persons<input type="Number" name="party_size" class="t_data inputs" required >
+                    </div>
+                    <div class="iBox">
+                        Tables Available <select name="T_id" id="tables"  class="inputs" >
+                            <option value="" hidden>Select table</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" class="submit_res" value="Reserve">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_content">
+            <div class="img_container">
+                <a href=""><span>Food Empire</span></a>
+            </div>
+            <div class="hours">
+                <h4>Opening Hours</h4>
+                <div class="duration">
+                    <div class="days">
+                        Monday - Friday
+                        <p>10:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="days">
+                        Saturday
+                        <p>10:00 am to 9:00 pm</p>
+                    </div>
+                    <div class="days">
+                        Sunday
+                        <p>CLOSED</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <a href="#" class="fa fa-facebook fa-lg"></a>
+                <a href="#" class="fa fa-twitter fa-lg"></a>
+                <a href="#" class="fa fa-instagram fa-lg"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/book.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
