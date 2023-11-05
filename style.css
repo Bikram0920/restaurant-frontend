@@ -764,7 +764,7 @@ tbody tr:nth-child(odd){
         font-size: 9px;
     } 
     .form_content .iBox input{
-        height: 36px;
+        height: 13px;
     }
     .form_content .iBox select{
         width: 126%;
@@ -773,6 +773,7 @@ tbody tr:nth-child(odd){
     } 
     td,th{
         font-size: 9px;
-        padding-right: 9px;
+        padding:12px 6px;
+        text-align: center;
     }
 }
