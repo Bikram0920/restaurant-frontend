@@ -47,6 +47,7 @@ const handleSubmit=async (e)=>
     {
         console.log(resp);
         alert(resp.message);
+        window.location.href=`https://bikram-foodempire.netlify.app/reservation`;
     }
     else
         alert(resp.error);
@@ -80,7 +81,7 @@ const getTables=async ()=>
     select_table.innerHTML=`<option value="" hidden>Select table</option>`;
     resp.forEach((table)=>
     {
-        select_table.innerHTML+=` <option value="${table.T_id}">${table.T_id}</option>`
+        select_table.innerHTML+=` <option value="${table.T_id}">${table.T_id} : ${table.capacity}</option>`
     })
 }
 

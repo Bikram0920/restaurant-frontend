@@ -123,22 +123,25 @@ html::-webkit-scrollbar-thumb:active {
 .off{
     width: 205px;
     height: 38px;
-    border:2px solid #66fcf1;
+    /* border:2px solid #66fcf1; */
     border-radius: 5px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     color: white;
+    font-size: 18px;
+    background-color: #165854;
 }
 .content .content-body h2{
-    font-size: 65px;
+    font-size: 74px;
     line-height: 1.2;
 }
 .content .content-body p{
-    font-size: large;
+    font-size: 18px;
     margin-top: 10px;
+    line-height: 1.7;
 }
 .content a{
-    width: 120px;
+    width: 145px;
     padding: 5px 10px;
     border:2px solid #66fcf1;
     border-radius: 5px;
@@ -149,6 +152,7 @@ html::-webkit-scrollbar-thumb:active {
     color: #c5c6c7;
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
 }
 .content a:hover{
     background-position: left bottom;
