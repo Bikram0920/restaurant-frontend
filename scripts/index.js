@@ -58,3 +58,16 @@ var swiper = new Swiper(".slide-content", {
         },
     },
 });
+
+// Hamburger menu
+
+navbar.style.maxHeight="0px";
+
+function toggle(){
+if(navbar.style.maxHeight=="0px"){
+    navbar.style.maxHeight="530px";
+    }
+else{
+    navbar.style.maxHeight="0px";
+    }
+}
