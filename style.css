@@ -518,8 +518,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin-top: 90px;
+    position: relative;
 }
 .book_wrapper::before{
     content: '';
@@ -702,7 +703,7 @@ tbody tr:nth-child(odd){
         align-self: center;
     }
     .content-body{
-        margin: 25px 0 25px;
+        margin: 15px 0 15px;
         line-height: 1.7;
     }
     .content .content-body h2{
@@ -734,7 +735,7 @@ tbody tr:nth-child(odd){
     .contact_wrapper{
         height: 88vh;
     }
-    .login_wrapper{
+    .book_wrapper{
         height: 88vh;
     }
     .box{
@@ -757,5 +758,17 @@ tbody tr:nth-child(odd){
     }
     .box form input[type="submit"]{
         width: 100%;
+    }
+    .form_content .iBox{
+        width: 75%;
+        font-size: 11px;
+    } 
+    .form_content .iBox select{
+        width: 126%;
+        font-size: 7px;
+        height: 36px;
+    } 
+    td,th{
+        font-size: 9px;
     }
 }

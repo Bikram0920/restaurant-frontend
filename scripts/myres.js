@@ -1,3 +1,4 @@
+// navbar.style.height="0px";
 const getRes=async()=>
 {
     try

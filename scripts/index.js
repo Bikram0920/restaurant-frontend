@@ -1,4 +1,5 @@
 const navbar=document.querySelector('.navbar');
+navbar.style.maxHeight="0px";
 
 const signinLink=document.querySelector('#signin');
 const changeNavbar=()=>
@@ -60,8 +61,6 @@ var swiper = new Swiper(".slide-content", {
 });
 
 // Hamburger menu
-
-navbar.style.maxHeight="0px";
 
 function toggle(){
 if(navbar.style.maxHeight=="0px"){
