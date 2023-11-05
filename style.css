@@ -369,7 +369,7 @@ footer {
 }
 .box{
     /* padding: 15px 0; */
-    height: 450px;
+    height: 480px;
     width: 380px;
     background: rgba(0, 0, 0, 0.2);
 	border-radius: 16px;
@@ -406,6 +406,12 @@ footer {
     outline: none;
     color: #fff;
     font-size: 14px;
+}
+.box form .inputBox input::placeholder{
+    color: #fff;
+}
+.box form .iBox input::placeholder{
+    color: #fff;
 }
 #contact_msg{
     width: 300px;

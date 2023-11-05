@@ -81,7 +81,7 @@ const getTables=async ()=>
     select_table.innerHTML=`<option value="" hidden>Select table</option>`;
     resp.forEach((table)=>
     {
-        select_table.innerHTML+=` <option value="${table.T_id}">${table.T_id} : ${table.capacity}</option>`
+        select_table.innerHTML+=` <option value="${table.T_id}">${table.T_id}</option>`
     })
 }
 
