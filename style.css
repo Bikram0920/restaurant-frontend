@@ -721,4 +721,25 @@ tbody tr:nth-child(odd){
     .login_wrapper{
         height: 73vh;
     }
+    .box{
+        width: 80vw;
+    }
+    .box form .inputBox{
+        width: 90%;
+    }
+    .register_box{
+        height: 480px;
+    }
+    .signup{
+        font-size: 14px;
+    }
+    #contact_msg{
+        width: 100%;
+    }
+    .contact_box{
+        height: 480px;
+    }
+    .box form input[type="submit"]{
+        width: 100%;
+    }
 }
