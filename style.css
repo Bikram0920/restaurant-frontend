@@ -699,10 +699,10 @@ tbody tr:nth-child(odd){
         margin: 0 25px 0 25px;
         align-self: center;
     }
-    .content-body h2{
-        font-size: 48px;
+    .content .content-body h2{
+        font-size: 46px;
     }
-    .content-body p{
+    .contnet .content-body p{
         font-size: 16px;
     }
     .off{
